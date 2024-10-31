@@ -1,0 +1,42 @@
+div.clearing {
+    border-top:1px solid #2580b2;
+    clear: both;
+}
+ul#pn-submenu {
+    list-style:none;
+    display:block;
+    padding:0;
+}
+ul#pn-submenu li {
+    display:inline;
+    white-space:nowrap;
+}
+ul#pn-submenu li a {
+    text-decoration:none;
+}
+ul#pn-submenu li a.current {
+    color:#333;
+    font-weight:600;
+}
+.pn-sep {
+    padding:0 0.5em;
+}
+table#pn-create-cert-form {
+    border-collapse:collapse;
+}
+table#pn-create-cert-form td,
+table#pn-create-cert-form th {
+    text-align:left;
+    padding:0.2em;
+}
+table#pn-create-cert-form th small {
+    font-weight:normal;
+}
+tr.verified th,
+tr.verified td {
+    background-color:#E7F7D3;
+}
+tr.unverified th,
+tr.unverified td {
+    background-color:#FFEBE8;
+}
